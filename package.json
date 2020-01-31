@@ -1,0 +1,16 @@
+{
+  "name": "homeWork3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/yuseimykw/homeWork3.git",
+  "author": "mykw ysi <miyakawaysi@outlook.jp>",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "start": "webpack-dev-server --open"
+  }
+}
