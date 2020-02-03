@@ -1,0 +1,15 @@
+.menu {
+    height: 100vh;
+    width: 17%;
+    &_item {
+        display: flex;
+        justify-content:space-between;
+        padding :20px 40px;
+        font-size: 1.4rem;
+        line-height: 2.4rem;
+        &:hover {
+            background-color: #222222;
+            color: #FFFFFF;
+        } 
+    }
+}
